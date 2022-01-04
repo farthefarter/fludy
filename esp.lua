@@ -1,4 +1,4 @@
--- Unnamed ESP
+-- Fludy PUBLIC ESP
 
 assert(Drawing, 'exploit not supported')
 
@@ -26,8 +26,8 @@ local DragOffset = Vector2.new();
 local DraggingWhat = nil;
 local OldData = {};
 local IgnoreList = {};
-local Red = Color3.new(1, 0, 0);
-local Green = Color3.new(0, 1, 0);
+local Red = Color3.new(255, 255, 255);
+local Green = Color3.new(255, 255, 255);
 local MenuLoaded = false;
 
 shared.MenuDrawingData = shared.MenuDrawingData or { Instances = {} };
